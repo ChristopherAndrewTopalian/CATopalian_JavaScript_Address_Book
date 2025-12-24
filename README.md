@@ -5,6 +5,8 @@ A JavaScript app designed for easy sorting and displaying of address data.
 
 Video: https://www.youtube.com/watch?v=jO7TtZdG7lM
 
+Use App: https://christopherandrewtopalian.github.io/CATopalian_JavaScript_Address_Book/CATopalian_JavaScript_Address_Book.html
+
 ![001](src/media/textures/screenshots/001.PNG)
 
 ![002](src/media/textures/screenshots/002.PNG)
