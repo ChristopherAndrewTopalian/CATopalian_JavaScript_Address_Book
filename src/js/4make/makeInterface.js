@@ -7,9 +7,6 @@ function makeInterface()
     theTitle.href = 'https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_Address_Book';
     theTitle.target = '_blank';
     theTitle.textContent = 'CATopalian JavaScript Address Book';
-    theTitle.style.position = 'absolute';
-    theTitle.style.right = 12 + 'px';
-    theTitle.style.top = 4 + 'px';
     theTitle.style.fontSize = '15px';
     theTitle.style.fontWeight = 'bold';
     theTitle.style.textAlign = 'right';
@@ -20,7 +17,7 @@ function makeInterface()
     ba(theTitle);
 
     let mainDiv = ce('div');
-    mainDiv.style.marginTop = '22px';
+    mainDiv.style.marginTop = '2px';
     ba(mainDiv);
 
     //-//
