@@ -4,8 +4,6 @@ function whenLoaded()
 {
     makeInterface();
 
-    makeTitleOfApp();
-
     addBtnSounds();
 
     showData(info, 'page');

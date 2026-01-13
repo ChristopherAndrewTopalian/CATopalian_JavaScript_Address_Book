@@ -2,6 +2,23 @@
 
 function makeInterface()
 {
+    let theTitle = ce('a');
+    theTitle.id = 'theTitle';
+    theTitle.href = 'https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_Address_Book';
+    theTitle.target = '_blank';
+    theTitle.textContent = 'CATopalian JavaScript Address Book';
+    theTitle.style.position = 'absolute';
+    theTitle.style.right = 12 + 'px';
+    theTitle.style.top = 4 + 'px';
+    theTitle.style.fontSize = '15px';
+    theTitle.style.fontWeight = 'bold';
+    theTitle.style.textAlign = 'right';
+    theTitle.style.lineHeight = 15 + 'px';
+    theTitle.style.fontFamily = 'Arial';
+    theTitle.style.textDecoration = 'none';
+    theTitle.style.color = 'rgb(130, 130, 130)';
+    ba(theTitle);
+
     let mainDiv = ce('div');
     mainDiv.style.marginTop = '22px';
     ba(mainDiv);
@@ -133,8 +150,8 @@ function makeInterface()
 
     let textOutput = ce('textarea');
     textOutput.id = 'textOutput';
-    textOutput.style.width = '98%';
-    textOutput.style.height = '85%';
+    textOutput.style.width = '700px';
+    textOutput.style.height = '200px';
     textOutput.style.marginTop = '10px';
     textOutput.style.padding = '20px';
     textOutput.style.backgroundColor = 'rgb(40, 40, 40)';
